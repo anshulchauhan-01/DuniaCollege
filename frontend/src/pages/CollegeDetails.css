@@ -1,0 +1,58 @@
+.college-details {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 24px;
+}
+
+.college-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+.college-header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.college-header p {
+    color: #666;
+}
+
+.college-rating {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.details-section {
+    margin-top: 35px;
+}
+
+.details-section h2 {
+    margin-bottom: 15px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.stats div {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: white;
+}
+
+.stats span {
+    display: block;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.stats strong {
+    font-size: 20px;
+}

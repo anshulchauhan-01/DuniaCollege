@@ -1,0 +1,31 @@
+.college-card {
+    width: 600px;
+    padding: 24px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.college-card h2 {
+    margin: 0 0 8px;
+}
+
+.location {
+    color: #666;
+}
+
+.rating {
+    font-weight: bold;
+}
+
+.details-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+}

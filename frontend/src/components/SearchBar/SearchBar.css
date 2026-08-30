@@ -1,0 +1,84 @@
+.search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 13px 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    background: white;
+}
+
+.search-bar input:focus {
+    border-color: #2563eb;
+}
+
+.search-bar button {
+    padding: 13px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background: #1d4ed8;
+}
+
+.suggestions {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    width: calc(100% - 95px);
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    z-index: 10;
+}
+
+.suggestions div {
+    padding: 12px 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.suggestions div:last-child {
+    border-bottom: none;
+}
+
+.suggestions div:hover {
+    background: #f5f7fa;
+}
+
+.spinner {
+    position: absolute;
+    right: 105px;
+    width: 18px;
+    height: 18px;
+    border: 3px solid #ddd;
+    border-top: 3px solid #2563eb;
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
